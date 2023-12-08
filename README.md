@@ -55,3 +55,44 @@ print("Jumlah angka prima:", jumlah_prima)
 
 Setelah selesai mengiterasi semua bilangan dari 2 hingga 23, kode ini akan mencetak jumlah total bilangan prima yang ditemukan.
 Jadi, kode tersebut akan mencetak semua bilangan prima antara 2 dan 23 (tidak termasuk 24), serta menampilkan jumlah total bilangan prima yang ditemukan
+
+![image](https://github.com/Ahmadfadhila/Tugas1PBO/assets/150579766/43b9cc86-c44e-4018-ba13-eb605a71e3e1)
+
+j = 1
+
+Inisialisasi variabel j dengan nilai 1. Variabel ini akan digunakan sebagai penghitung atau pengontrol loop.
+while j <= 24:
+
+Ini adalah loop while yang akan berjalan selama nilai j kurang dari atau sama dengan 24. Loop akan terus berlanjut sampai kondisi ini tidak terpenuhi lagi.
+if j % 3 == 0:
+
+Pernyataan if ini memeriksa apakah nilai j habis dibagi 3. Jika sisa bagi adalah 0, berarti j adalah kelipatan dari 3.
+print("Kelipatan 3")
+
+Jika nilai j habis dibagi 3, pernyataan ini akan mencetak teks "Kelipatan 3" ke layar.
+else:
+
+Bagian else ini menangani kondisi saat nilai j tidak habis dibagi 3.
+print(j)
+
+Jika nilai j tidak habis dibagi 3, nilai j akan dicetak ke layar.
+j += 1
+
+Ini adalah operasi penambahan yang dilakukan setelah setiap iterasi loop. Nilai j akan bertambah satu setiap kali iterasi berakhir untuk mempersiapkan iterasi berikutnya.
+Jadi, dengan menggunakan loop while, program ini mencetak angka dari 1 hingga 24. Jika angka tersebut habis dibagi 3, program mencetak "Kelipatan 3" sebagai gantinya.
+
+![image](https://github.com/Ahmadfadhila/Tugas1PBO/assets/150579766/640258e3-4f5b-472f-a213-1f6eca7208e9)
+
+angka = [...]
+
+Inisialisasi sebuah list yang disebut angka yang berisi sepuluh string, yaitu "Satu", "Dua", "Tiga", dan seterusnya hingga "Sepuluh". Setiap elemen dalam list ini mewakili nama bilangan dari 1 hingga 10 dalam bentuk kata.
+for i in angka:
+
+Ini adalah loop for yang akan mengiterasi setiap elemen dalam list angka. Saat setiap iterasi, nilai dari elemen saat ini (dalam hal ini direpresentasikan oleh variabel i) akan diambil dari list.
+print(i)
+
+Pernyataan ini mencetak nilai dari variabel i. Dalam konteks ini, i akan menjadi string yang mewakili angka dalam bentuk kata, misalnya, "Satu", "Dua", dst.
+Jadi, dengan menggunakan loop for, kode ini akan mencetak setiap elemen dari list angka, yaitu kata-kata yang mewakili angka dari 1 hingga 10.
+
+
+Berikut tugas dari Ahmad Fadhila dengan NPM G1F022005 dibuat untuk memenuhi nilai Tugas 1 Mata Kuliah PBO , Prodi Sistem Informasi , Fakultas Teknik , Universitas Bengkulu. Sekian Terima Kasih
