@@ -1,4 +1,31 @@
 # Tugas1PBO
+Python adalah bahasa pemrograman tingkat tinggi yang populer, mudah dipelajari, dan serbaguna. Diciptakan oleh Guido van Rossum pada akhir 1980-an, Python dirancang dengan fokus pada keterbacaan kode dan kesederhanaan sintaksnya, membuatnya menjadi salah satu bahasa yang digunakan luas di berbagai bidang seperti pengembangan web, pengembangan perangkat lunak, analisis data, kecerdasan buatan, dan banyak lagi.
+
+Beberapa ciri khas Python meliputi:
+1. Sintaks Mudah Dipahami:
+
+    Penggunaan indentasi (spasi) untuk menandai blok kode, yang membuatnya lebih mudah dibaca dibandingkan dengan menggunakan kurung kurawal atau tanda kurung lainnya.
+
+2. Serbaguna:
+
+    Python digunakan dalam berbagai bidang, seperti pengembangan web (Flask, Django), ilmu data (paket seperti Pandas, NumPy), kecerdasan buatan (TensorFlow, PyTorch), pengembangan permainan (Pygame), dan banyak lagi.
+
+3. Ekosistem yang Kaya:
+
+    Python memiliki banyak perpustakaan dan modul yang memudahkan pengembangan, memungkinkan penggunaan kode yang sudah ada (modularitas), dan mempercepat proses pembuatan aplikasi atau proyek.
+
+4. Dukungan Komunitas yang Kuat:
+
+    Python didukung oleh komunitas besar pengembang yang aktif. Hal ini menghasilkan dokumentasi yang baik, sumber daya pembelajaran yang melimpah, serta dukungan dari berbagai forum dan komunitas online.
+
+5. Portabilitas:
+
+    Kode Python dapat dijalankan di berbagai platform, termasuk Windows, macOS, dan berbagai distribusi Linux.
+
+Kelebihan Python termasuk kemudahan pemahaman, fleksibilitas, serta cepatnya dalam pengembangan prototipe dan produksi. Kekurangannya mungkin terletak pada kecepatan relatifnya dibandingkan bahasa pemrograman lain yang lebih teroptimasi secara langsung untuk kecepatan tertentu. Meskipun demikian, kemampuan Python untuk bekerja dengan banyak perpustakaan yang dioptimalkan secara khusus dapat mengatasi kekurangan ini dalam banyak kasus.
+
+
+Pembahasan
 ![image](https://github.com/Ahmadfadhila/Tugas1PBO/assets/150579766/e8dae0e0-04c8-419c-84dc-5888ec85dd43)
 for i in range(1, 101):
 
