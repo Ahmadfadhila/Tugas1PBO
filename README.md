@@ -108,18 +108,18 @@ j += 1
 Ini adalah operasi penambahan yang dilakukan setelah setiap iterasi loop. Nilai j akan bertambah satu setiap kali iterasi berakhir untuk mempersiapkan iterasi berikutnya.
 Jadi, dengan menggunakan loop while, program ini mencetak angka dari 1 hingga 24. Jika angka tersebut habis dibagi 3, program mencetak "Kelipatan 3" sebagai gantinya.
 
-![image](https://github.com/Ahmadfadhila/Tugas1PBO/assets/150579766/640258e3-4f5b-472f-a213-1f6eca7208e9)
+![image](https://github.com/Ahmadfadhila/Tugas1PBO/assets/150579766/f189ab96-993d-47a3-82c0-446e221bb1f6)
+
 
 angka = [...]
 
-Inisialisasi sebuah list yang disebut angka yang berisi sepuluh string, yaitu "Satu", "Dua", "Tiga", dan seterusnya hingga "Sepuluh". Setiap elemen dalam list ini mewakili nama bilangan dari 1 hingga 10 dalam bentuk kata.
+Inisialisasi sebuah list yang disebut angka yang berisi nama-nama bulan dalam bahasa Indonesia, mulai dari "Januari" hingga "Oktober".
 for i in angka:
 
 Ini adalah loop for yang akan mengiterasi setiap elemen dalam list angka. Saat setiap iterasi, nilai dari elemen saat ini (dalam hal ini direpresentasikan oleh variabel i) akan diambil dari list.
 print(i)
 
-Pernyataan ini mencetak nilai dari variabel i. Dalam konteks ini, i akan menjadi string yang mewakili angka dalam bentuk kata, misalnya, "Satu", "Dua", dst.
-Jadi, dengan menggunakan loop for, kode ini akan mencetak setiap elemen dari list angka, yaitu kata-kata yang mewakili angka dari 1 hingga 10.
-
+Pernyataan ini mencetak nilai dari variabel i. Dalam konteks ini, i akan mewakili nama bulan dari setiap iterasi dalam loop for.
+Jadi, menggunakan loop for ini, kode tersebut akan mencetak nama-nama bulan yang ada dalam list angka, yaitu nama-nama bulan dalam bahasa Indonesia dari "Januari" hingga "Oktober".
 
 Berikut tugas dari Ahmad Fadhila dengan NPM G1F022005 dibuat untuk memenuhi nilai Tugas 1 Mata Kuliah PBO , Prodi Sistem Informasi , Fakultas Teknik , Universitas Bengkulu. Sekian Terima Kasih
