@@ -19,3 +19,39 @@ print(i)
 
 Jika nilai i tidak habis dibagi 10, baris ini akan mencetak nilai i ke layar.
 Jadi, kode tersebut akan mencetak angka dari 1 hingga 100 kecuali untuk kelipatan 10, di mana akan mencetak "Ahmadfadhila" sebanyak tiga kali.
+
+![image](https://github.com/Ahmadfadhila/Tugas1PBO/assets/150579766/5a20b891-598b-48aa-9745-391aa163a826)
+jumlah_prima = 0
+
+Ini adalah inisialisasi variabel jumlah_prima yang akan digunakan untuk menghitung jumlah bilangan prima yang ditemukan.
+for i in range(2, 24):
+
+Ini adalah loop for yang akan mengiterasi nilai i dari 2 hingga 23 (24 tidak termasuk). Loop ini akan memeriksa setiap bilangan dalam rentang tersebut.
+prima = True
+
+Di sini, variabel prima diinisialisasi sebagai True, yang akan digunakan untuk menandai apakah bilangan i adalah bilangan prima.
+for j in range(2, int(i ** 0.5) + 1):
+
+Ini adalah loop di dalam loop. Loop ini akan melakukan iterasi dari 2 hingga akar dari i (dijumlahkan 1) untuk memeriksa apakah i adalah bilangan prima.
+if i % j == 0:
+
+Pernyataan ini memeriksa apakah i habis dibagi oleh j (dalam rentang dari 2 hingga akar dari i). Jika sisa bagi adalah 0, maka i bukan bilangan prima karena memiliki pembagi selain 1 dan dirinya sendiri.
+prima = False
+
+Jika ditemukan pembagi selain 1 dan i sendiri, prima diubah menjadi False untuk menandai bahwa i bukanlah bilangan prima.
+break
+
+Ini adalah perintah untuk keluar dari loop for j saat ditemukan pembagi, karena sudah cukup untuk membuktikan bahwa i bukan bilangan prima.
+if prima:
+
+Setelah loop selesai, kode ini memeriksa apakah variabel prima tetap True. Jika ya, maka i adalah bilangan prima.
+jumlah_prima += 1
+
+Jika i adalah bilangan prima, maka jumlah bilangan prima yang ditemukan akan ditambah satu.
+print(i)
+
+Mengeluarkan nilai i ke layar jika i adalah bilangan prima.
+print("Jumlah angka prima:", jumlah_prima)
+
+Setelah selesai mengiterasi semua bilangan dari 2 hingga 23, kode ini akan mencetak jumlah total bilangan prima yang ditemukan.
+Jadi, kode tersebut akan mencetak semua bilangan prima antara 2 dan 23 (tidak termasuk 24), serta menampilkan jumlah total bilangan prima yang ditemukan
